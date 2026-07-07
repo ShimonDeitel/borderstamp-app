@@ -1,0 +1,27 @@
+{
+  "identifier": "0000",
+  "nonRenewingSubscriptions": [],
+  "products": [
+    {
+      "displayPrice": "2.99",
+      "familyShareable": false,
+      "internalID": "1001",
+      "localizations": [
+        {
+          "description": "Unlock Border Stamp Pro",
+          "displayName": "Border Stamp Pro",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.shimondeitel.borderstamp.pro",
+      "referenceName": "Border Stamp Pro",
+      "type": "NonConsumable"
+    }
+  ],
+  "settings": {},
+  "subscriptionGroups": [],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}
