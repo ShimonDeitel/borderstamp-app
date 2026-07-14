@@ -18,9 +18,9 @@ struct ContentView: View {
                             Text(entry.country).font(Theme.headlineFont)
                             Text(entry.crossingPoint).font(Theme.bodyFont).foregroundColor(.secondary)
                             HStack {
-                                Text("\(entry.stayDays, specifier: \"%.1f\") days")
+                                Text("\(entry.stayDays, specifier: "%.1f") days")
                                 Spacer()
-                                Text("\(entry.visitCount, specifier: \"%.1f\")")
+                                Text("\(entry.visitCount, specifier: "%.1f")")
                             }
                             .font(.caption)
                             .foregroundColor(Theme.accent)
